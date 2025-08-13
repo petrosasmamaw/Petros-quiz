@@ -1,0 +1,35 @@
+
+const Questions=[
+    {id:1, question:"What is the capital of France?", 
+        option1:"Paris", 
+        option2: "London", 
+        option3: "Berlin", 
+        option4: "Madrid", 
+        answer: 1},
+    {id:2, question:"What is 2 + 2?", 
+        option1:"3", 
+        option2: "4", 
+        option3:"5", 
+        option4:"6",
+        answer: 2},
+    {id:3, question:"What is the largest planet in our solar system?", 
+        option1:"Earth", 
+        option2: "Mars", 
+        option3:"Jupiter", 
+        option4: "Saturn", 
+        answer: 3},
+    {id:4, question:"What is the boiling point of water ?", 
+        option1:"90°C", 
+        option2: "100°C", 
+        option3:"80°C", 
+        option4: "120°C", 
+        answer: 2},
+    {id:5, question:"What is the boiling point of water?", 
+        option1:"90°f", 
+        option2: "233°f", 
+        option3:"212°f", 
+        option4: "120°f", 
+        answer: 3}
+]
+
+export default Questions;
