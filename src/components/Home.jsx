@@ -63,7 +63,7 @@ const Home = () => {
       <h2>you scored {score} out of {Questions.length} questions</h2>
       <button onClick={reset}>reset</button>
       </>
-      :<><h2>{index+1}. {question}</h2>
+      :<><h2>{index+1}. {question.question}</h2>
       <ul>
         <li ref={Option1} onClick={(e)=> {chekAns(e,1)}}>{question.option1}</li>
         <li ref={Option2} onClick={(e)=> {chekAns(e,2)}}>{question.option2}</li>
