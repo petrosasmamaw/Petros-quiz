@@ -1,7 +1,7 @@
 import React, {useRef, useState} from "react";
 import './Home.css'
 import Questions from "./questions";
-.....
+......
 const Home = () => {
     let [index, setIndex] = useState(0)
     let [question,setQuestion] = useState(Questions[index])
